@@ -1,10 +1,8 @@
 import React from 'react';
-import drewsIMG from './Drews.jpg';
-import profile from './marcus_peters.jpg';
-import spiderman from './spiderman.jpg';
+import resume from './resume.png';
 import linkedin from './linkedIN.png';
 import git from './github.jpeg';
-import mail from './mail.png';
+import mail from './email.png';
 
 let github = './github.jpeg';
 
@@ -26,13 +24,13 @@ const projects = [
     id: 3,
     imageUrl: mail,
     title: 'Email',
-    link: 'mailto:jacko.peters2001@gmail.com', // Add the link for each project
+    link: 'mailto:mp925@cornell.edu', // Add the link for each project
   },
   {
     id: 4,
-    imageUrl: 'http://localhost3000/resume.pdf',
-    title: 'Email',
-    link: 'mailto:jacko.peters2001@gmail.com', // Add the link for each project
+    imageUrl: resume,
+    title: 'CV',
+    link: 'https://1drv.ms/b/s!AinwjymvY2WfhPQ5G6A9fibQnre8zQ?e=8Hj06c', // Add the link for each project
   },
 
   // Add more project objects as needed
@@ -40,7 +38,7 @@ const projects = [
 
 const ProjectContainer = () => {
   const handleProjectClick = (link) => {
-    window.location.href = link; // Redirect to the project link
+    window.open(link); // Redirect to the project link
   };
 
   return (

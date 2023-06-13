@@ -41,11 +41,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 50vh;
   max-width: 80%;
   justify-self: center;
   align-self: center;
-  margin: auto;
+  margin: auto auto 0 auto;
 }
 
 .text-container {
@@ -198,15 +198,17 @@
 .link-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3, 1fr); /* Adjust the number as needed */
-  gap: 100px; /* Adjust the gap size as needed */
-  padding-left: 5%;
+  grid-template-columns: repeat(5, 1fr); /* Adjust the number as needed */
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  padding-left: 10%;
+  margin: 0 auto;
 }
 
 .link-item {
   position: relative;
-  width: 200px; /* Adjust the width as needed */
-  height: 200px; /* Adjust the height as needed */
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
   border-radius: 100%;
   overflow: hidden;
 }
