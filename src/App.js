@@ -1,25 +1,28 @@
 import React from "react";
 import "./App.css";
-import profile from "./marcus_peters.jpg";
-import cornellIMG from "./cornell.png";
-import drewsIMG from "./Drews.jpg";
+import profile from "./img/marcus_peters.jpg";
+import cornellIMG from "./img/cornell.png";
+import drewsIMG from "./img/Drews.jpg";
 
 import TypingAnimation from "./typecode";
 import TypingAnimation2 from "./typecodeMulti";
 import ImageSwapper from "./imageSwoop";
 import Links from './links'
-import cornell from './cornell.jpg'
-import friends from './friends.jpg'
-import rugby from './rugby.jpg'
+
+import cornell from './img/cornell.jpg'
+import friends from './img/friends.jpg'
+import rugby from './img/rugby.jpg'
+import collaboration from './img/collaboration.png'
 
 import Project from "./project";
 
 const sentences = [
 	"I love to play sports, especially rugby!             ",
 	"I am obsessed with my guitar          ",
-	"I enjoy solving problems collaboratively          ",
+	"I enjoy problem solving with friends          ",
 ];
-const images = [rugby, profile, friends];
+
+const images = [rugby, profile, collaboration];
 
 
 

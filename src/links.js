@@ -1,10 +1,9 @@
 import React from 'react';
-import resume from './resume.png';
-import linkedin from './linkedIN.png';
-import git from './github.jpeg';
-import mail from './email.png';
+import resume from './img/resume.png';
+import linkedin from './img/linkedIN.png';
+import git from './img/github.jpeg';
+import mail from './img/email.png';
 
-let github = './github.jpeg';
 
 
 const projects = [

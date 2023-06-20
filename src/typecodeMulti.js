@@ -18,7 +18,7 @@ const TypingAnimation = ({ sentences, typingDelay = 150, erasingDelay = 100, del
           clearTimeout(timer);
           setTimeout(() => {
             setIsTyping(true);
-          }, 9999999); // Delay before erasing starts
+          }, 99999); // Delay before erasing starts
         }
       }, typingDelay);
     } else {

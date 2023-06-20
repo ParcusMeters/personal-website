@@ -1,11 +1,8 @@
 import React from 'react';
-import drewsIMG from './Drews.jpg';
-import profile from './marcus_peters.jpg';
-import spiderman from './spiderman.jpg';
-import webdev from './webdev.png';
-import guardian from './the-guardian-logo.jpeg';
-import messenger from './messenger.png';
-import board from './board.jpeg'
+import webdev from './img/webdev.png';
+import guardian from './img/the-guardian-logo.jpeg';
+import messenger from './img/messenger.png';
+import board from './img/board.jpeg'
 
 
 
